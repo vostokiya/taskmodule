@@ -8,7 +8,7 @@ class TaskmoduleServiceProvider extends \Illuminate\Support\ServiceProvider {
 
     public function boot() {
         $this->publishes([
-            __DIR__ . '/Modules' => base_path('modules'),
+            __DIR__ . '/Modules' => base_path('App/Modules'),
         ]);
     }
 
